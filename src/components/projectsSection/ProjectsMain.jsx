@@ -5,32 +5,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Care Connect",
+    year: "Apr 2025",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../public/images/care-connect.jpg",
+    link: "https://github.com/mohdshariq-8589/CareConnect",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Heart Sync",
+    year: "Feb 2025",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "../../public/images/heart-sync.png",
+    link: "https://github.com/mohdshariq-8589/HeartSync",
   },
   {
-    name: "Tourzania",
+    name: "Prestige Enclave",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "../../public/images/real-estate.webp",
+    link: "https://github.com/mohdshariq-8589/Prestige-Enclave",
   },
   {
-    name: "Bank of Luck",
+    name: "Hire Hub",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "../../public/images/job-portal.jpg",
+    link: "https://github.com/mohdshariq-8589/Hire-Hub",
   },
 ];
 
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
